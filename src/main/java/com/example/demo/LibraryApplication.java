@@ -12,7 +12,6 @@ public class LibraryApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(LibraryApplication.class, args);
-		System.out.println("Hi");
 	}
 	@Bean
 	public ModelMapper getModelMapper() {
